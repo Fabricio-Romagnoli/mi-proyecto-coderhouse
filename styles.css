@@ -1,0 +1,544 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      
+    }
+
+  main{
+    padding-bottom: 200px;
+    }
+    
+    header {
+      background-color: rgb(139, 139, 139);
+      color: #fff;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center; 
+      
+    }
+    
+    nav{
+      grid-column: 3;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    
+
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+      
+    }
+    
+    nav ul li:last-child {
+      margin-right: 0;
+      
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      
+    }
+    
+    h1 {
+      margin: 0;
+      
+    }
+    
+    .categorias a{
+      color: black;
+      text-decoration: none;
+      
+    }
+    .categorias ul {
+      display: flex;
+      list-style: none;
+      margin-left: 100px;
+      padding: 0;
+      justify-content: space-between; 
+    }
+    
+    .categorias li {
+      display: inline-block; 
+      margin-right: 20px; 
+      font-size: 20px; 
+      margin-top: 20px;
+      margin-left: 50px;
+      
+    }
+    
+  .logo {
+      grid-column: 1; 
+    }
+    
+  .logo img {
+      width: 150px;
+      height: 120px;
+    }
+    
+    .ingresar-registrarme {
+      position: absolute;
+      top: 60px;
+      right: 30px;
+      font-size: 20px;
+      
+    }
+    .ingresar-registrarme a {
+      color: black
+    }
+
+
+    .destacados {
+      display: grid;
+      grid-template-columns: 1fr; 
+      gap: 100px;
+      padding: 10px;
+    }
+    
+    .contenedor-imagenes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    
+    .contenedor-imagenes img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Cambio el orden de visualización */
+    .contenedor-imagenes img:nth-child(1) {
+      order: -1; 
+    }
+    
+  /* Estilos para el footer */
+  footer {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 90px;
+    text-align: center;
+    color: #333;
+    width: 100%; 
+  }
+
+  /* Estilos del logo del footer */
+  .logo-footer img {
+    max-width: 100%; 
+    max-height: 100px; 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  /* Estilos para la sección "Contacto" */
+  .contacto {
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    text-align: left;
+    font-size: 14px; 
+  }
+
+  /* Estilos para la sección "Redes Sociales" */
+  .redes-sociales {
+    max-width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .redes-sociales h3 {
+    margin: 0;
+  }
+
+  .redes-sociales a {
+    margin-right: 10px;
+  }
+
+  .redes-sociales img {
+    width: 30px; 
+    height: 30px; 
+  }
+
+  /* Estilos para la sección "Métodos de Pago" */
+  .metodos-pago {
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .metodos-pago h3 {
+    margin: 0;
+  }
+
+  .metodos-pago img {
+    max-width: 100%; 
+    height: 40px; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+  /*Agenda 2023*/
+
+
+  /* Estilos para la sección de categorías en el header */
+  .categorias2 nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+  }
+
+  .categorias2 nav ul li {
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+  }
+
+  .categorias2 nav ul li:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /
+    
+  }
+
+  .categorias2 nav ul li a {
+    color: black; 
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+  }
+
+  /* Estilos para las imágenes de productos */
+  .foto-productos {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 5%; 
+    justify-items: center; 
+    
+    
+  }
+
+  .foto-productos img {
+    
+    height: 40%; 
+    width: auto; 
+    margin-bottom: 2%;
+    border: 2px solid black;
+  }
+
+  /* Estilos para el contenedor de productos */
+  .producto {
+    text-align: center;
+    margin-bottom: 5%;
+    border: 2px solid #ccc; 
+    padding: 3%; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+  }
+
+
+  /* Estilos para el título del producto */
+  .producto h2 {
+    margin: 2% 0;
+    font-size: 18px;
+  }
+
+  /* Estilos para la descripción del producto */
+  .producto p {
+    font-size: 14px;
+    color: #666;
+  }
+
+
+
+
+  .paginacion {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+
+  /* Estilos del footer */
+  footer {
+    background-color: #f0f0f0; 
+    padding: 90px; 
+    text-align: center; 
+    color: #333; 
+    position: relative; 
+  }
+
+  /* Estilos del logo del footer */
+  .logo-footer img {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  /* Estilos para la sección "Contacto" */
+  .contacto {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    text-align: left; 
+    font-size: 15px;
+  }
+
+  .contacto h3 {
+    margin: 0; 
+  }
+
+  /* Estilos para la sección "Redes Sociales" */
+  .redes-sociales {
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    text-align: left; 
+    font-size: 15px;
+  }
+
+  .redes-sociales h3 {
+    margin: 0; 
+  }
+
+  .redes-sociales a {
+    margin-right: 10px;
+  }
+
+  .redes-sociales img {
+    width: 100px; 
+    height: 80px;
+  }
+
+  /* Estilos para la sección "Métodos de Pago" */
+  .metodos-pago {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    text-align: left; 
+    font-size: 15px;
+  }
+
+  .metodos-pago h3 {
+    margin: 0; 
+  }
+
+  .metodos-pago img {
+    width: 100px; 
+    height: 80px;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query para pantallas de 768px */
+ 
+  @media (max-width: 768px) {
+    header {
+      padding: 5px;
+    }
+
+    nav ul {
+      margin-left: 0;
+    }
+
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+
+    .categorias ul {
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+
+    .categorias li {
+      display: block;
+      margin: 10px 10px;
+    }
+
+    .logo img {
+      width: 120px;
+      height: auto;
+    }
+
+    .ingresar-registrarme {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-right:0px; /
+    }
+
+    .destacados {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .contenedor-imagenes {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-imagenes img {
+      max-width: 100%; 
+      height: auto;
+      text-align: center;
+    }
+
+    footer {
+      padding: 30px;
+    }
+
+    .contacto,
+    .redes-sociales,
+    .metodos-pago {
+      position: static;
+      text-align: center;
+      font-size: 16px;
+      margin: 20px 0;
+      left: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Agenda 2023
+  /* Media query para pantallas de 768px */
+  @media (max-width: 768px) 
+  {
+
+    /* Estilos para las imágenes de productos */
+    .foto-productos {
+      
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 10px;
+    }
+
+    .foto-productos img {
+      max-width: 100%; 
+      height: auto; 
+      margin-bottom: 80px;
+    }
+
+    /* Estilos para el contenedor de productos */
+    .producto {
+      text-align: center;
+      margin: 5% auto;
+    }
+
+
+  
+
+
+
+
+
+  }
+  
