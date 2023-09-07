@@ -1,11 +1,19 @@
 {
   "name": "c",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
+=======
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC"
+=======
+  "license": "ISC",
+  "description": ""
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
 }

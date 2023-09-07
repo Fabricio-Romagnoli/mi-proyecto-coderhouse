@@ -1,15 +1,26 @@
-  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      position: relative;
-      
-    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+}
 
-  main{
-    padding-bottom: 200px;
-    }
+main{
+padding-bottom: 200px;
+margin-bottom: 100px;
+
+}
+
+header {
+  background-color: rgb(139, 139, 139);
+  color: #fff;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;  
     
+<<<<<<< HEAD
     header {
       background-color: rgb(139, 139, 139);
       color: #fff;
@@ -23,13 +34,15 @@
     nav{
       grid-column: 3;
     }
+=======
+}
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
 
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    
+nav{
+  grid-column: 3;
+}
 
+<<<<<<< HEAD
     }
     
     nav ul li {
@@ -82,6 +95,12 @@
     .ingresar-registrarme a {
       color: black
     }
+=======
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
 
     .categorias a{
       color: black;
@@ -114,6 +133,7 @@
  
 
 
+<<<<<<< HEAD
     .destacados {
       display: grid;
       grid-template-columns: 1fr; 
@@ -151,43 +171,34 @@
     color: #333;
     width: 100%; 
   }
+=======
+}
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
 
-  /* Estilos del logo del footer */
-  .logo-footer img {
-    max-width: 100%; 
-    max-height: 100px; 
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
 
-  /* Estilos para la sección "Contacto" */
-  .contacto {
-    position: absolute;
-    top: 20px;
-    left: 260px;
-    text-align: left;
-    font-size: 14px; 
-  }
+nav ul li:last-child {
+  margin-right: 0;
+  
+}
 
-  /* Estilos para la sección "Redes Sociales" */
-  .redes-sociales {
-    max-width: 100%;
-    position: absolute;
-    top: 20px;
-    left: 800px;
-    text-align: left;
-    font-size: 20px;
-  }
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  
+}
 
-  .redes-sociales h3 {
-    margin: 0;
-  }
+h1 {
+  margin: 0;
+  
+}
 
-  .redes-sociales a {
-    margin-right: 10px;
-  }
 
+<<<<<<< HEAD
   .redes-sociales img {
     width: 30px; 
     height: 30px; 
@@ -625,9 +636,23 @@ body, h1, h2, h3, p, ul, li {
     width: 100px; 
     height: 80px;
   }
+=======
+.custom-nav-container {
+ width: 50%; 
+ margin-bottom: 10px;
+ text-align: center;
+}
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
 
+.logo {
+  grid-column: 1; 
+}
 
+.logo img {
+  width: 150px;
+  height: 120px;
 
+<<<<<<< HEAD
 
 
 /*Index*/
@@ -668,6 +693,365 @@ body, h1, h2, h3, p, ul, li {
     height: auto; /* Mantiene la proporción de aspecto */
     margin: 10px 0; /* Espacio entre las imágenes */
   }
+=======
+  
+}
+
+.ingresar-registrarme {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  font-size: 20px;
+  
+}
+.ingresar-registrarme a {
+  color: black
+}
+
+.categorias a{
+  color: black;
+  text-decoration: none;
+  
+}
+.categorias ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between; 
+  text-align: center;
+}
+
+.categorias li {
+  display: inline-block; 
+  margin-right: 20px; 
+  font-size: 20px; 
+  margin-top: 20px;
+  margin-left: 50px;
+  
+}
+
+
+.carousel-item img {
+  width: 100%;
+  max-height: 400px;
+}
+
+
+.destacados {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.contenedor-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.contenedor-imagenes img {
+  width: 90%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+/* Cambio el orden de visualización */
+.contenedor-imagenes img:nth-child(1) {
+  order: -1; 
+}
+
+/* Estilos para el footer */
+footer {
+position: relative;
+background-color: #f0f0f0;
+padding: 90px;
+text-align: center;
+color: #333;
+width: 100%; 
+}
+
+/* Estilos del logo del footer */
+.logo-footer img {
+max-width: 100%; 
+max-height: 100px; 
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+/* Estilos para la sección "Contacto" */
+.contacto {
+position: absolute;
+top: 20px;
+left: 260px;
+text-align: left;
+font-size: 10px; 
+}
+
+/* Estilos para la sección "Redes Sociales" */
+.redes-sociales {
+max-width: 100%;
+position: absolute;
+top: 20px;
+left: 800px;
+text-align: left;
+font-size: 20px;
+}
+
+.redes-sociales h3 {
+margin: 0;
+}
+
+.redes-sociales a {
+margin-right: 10px;
+}
+
+.redes-sociales img {
+width: 30px; 
+height: 30px; 
+}
+
+/* Estilos para la sección "Métodos de Pago" */
+.metodos-pago {
+position: absolute;
+top: 20px;
+left: 1200px;
+text-align: left;
+font-size: 20px;
+}
+
+.metodos-pago h3 {
+margin: 0;
+}
+
+.metodos-pago img {
+max-width: 100%; 
+height: 40px; 
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+=======
+/*Carrito*/
+body, h1, h2, h3, p, ul, li {
+margin: 0;
+padding: 0;
+}
+
+/* Definir algunos estilos básicos para la sección del carrito */
+.carrito {
+display: flexbox;
+align-items: center;
+background-color: #f8f8f8;
+padding: 20px;
+border: 1px solid #333;
+margin: 20px;
+border-radius: 5px;
+}
+
+/* Aplicar estilo al título de la sección */
+.carrito h2 {
+font-size: 24px;
+margin-bottom: 20px;
+color: #333;
+}
+
+/* Aplicar estilo al contenedor de información del producto */
+.producto {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+color: #333;
+}
+
+/* Aplicar estilo a la imagen del producto */
+.logo img {
+max-width: 100%;
+height: auto;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+/* Aplicar estilo al nombre del producto */
+.producto p {
+font-size: 18px;
+margin-left: 20px;
+flex-grow: 1;
+}
+
+/* Aplicar estilo a los botones de acción (Eliminar, Guardar, Comprar ahora) */
+.acciones{
+display:flex;
+align-items: center;
+
+}
+
+
+
+/* Aplicar estilo a la información de cantidad y disponibilidad */
+.producto p:nth-child(4),
+.producto p:nth-child(5) {
+font-size: 14px;
+color: #777;
+margin: 0;
+}
+
+.cupon{
+color: #333
+}
+
+/* Aplicar estilo a la entrada del código de cupón */
+.cupon input[type="text"] {
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+border: 1px solid #333;
+border-radius: 5px;
+font-size: 16px;
+}
+
+
+/* Aplicar estilo al contenedor de resumen de compras */
+.resumen-compra {
+margin-top: 20px;
+padding: 20px;
+background-color: #333;
+border: 1px solid #333;
+border-radius: 5px;
+}
+
+/* Aplicar estilo a la tabla de resumen de compras */
+.resumen-compra table {
+width: 100%;
+}
+
+/* Aplicar estilo a las celdas de la tabla de resumen de compras */
+.resumen-compra td {
+padding: 5px 0;
+font-size: 16px;
+}
+
+/* Aplicar estilo al botón Continuar comprando */
+.continuar-compra {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 18px;
+cursor: pointer;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+/* Aplicar estilo al botón Continuar comprando al pasar el mouse */
+.continuar-compra:hover {
+background-color: #555;
+}
+
+
+/* Estilos para el footer */
+footer {
+position: relative;
+background-color: #f0f0f0;
+padding: 90px;
+text-align: center;
+color: #333;
+width: 100%; 
+}
+
+/* Estilos del logo del footer */
+.logo-footer img {
+max-width: 100%; 
+max-height: 100px; 
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+/* Estilos para la sección "Contacto" */
+.contacto {
+position: absolute;
+top: 20px;
+left: 260px;
+text-align: left;
+font-size: 14px; 
+}
+
+/* Estilos para la sección "Redes Sociales" */
+.redes-sociales {
+max-width: 100%;
+position: absolute;
+top: 20px;
+left: 800px;
+text-align: left;
+font-size: 20px;
+}
+
+.redes-sociales h3 {
+margin: 0;
+}
+
+.redes-sociales a {
+margin-right: 10px;
+}
+
+.redes-sociales img {
+width: 30px; 
+height: 30px; 
+}
+
+/* Estilos para la sección "Métodos de Pago" */
+.metodos-pago {
+position: absolute;
+top: 20px;
+left: 1200px;
+text-align: left;
+font-size: 20px;
+}
+
+.metodos-pago h3 {
+margin: 0;
+}
+
+.metodos-pago img {
+max-width: 100%; 
+height: 40px; 
 }
 
 
@@ -722,6 +1106,229 @@ body, h1, h2, h3, p, ul, li {
 
 
 
+/*Agenda 2023*/
+
+
+
+/* Estilos para la sección de categorías en el header */
+
+.categorias2 nav ul {
+list-style: none;
+padding: 20px;
+margin: 0px;
+}
+
+.categorias2 nav ul li {
+border: 2px solid #333;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+transition: all 0.3s ease; 
+}
+
+.categorias2 nav ul li:hover {
+transform: scale(1.05); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /
+
+}
+
+.categorias2 nav ul li a {
+color: black; 
+text-decoration: none;
+font-size: 20px;
+padding: 10px;
+
+}
+
+/* Estilos para las imágenes de productos */
+.foto-productos {
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+gap: 5%; 
+justify-items: center; 
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+/* Establecer un ancho máximo para el contenedor principal */
+.foto-productos {
+  max-width: 100%; /* Esto permite que el contenedor se ajuste automáticamente al ancho del dispositivo */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 0 20px; /* Añade un espacio de relleno opcional en los lados para un diseño más agradable */
+}
+
+
+/* Estilos para el contenedor de productos */
+.producto {
+text-align: center;
+margin-bottom: 5%;
+border: 2px solid #ccc; 
+padding: 3%; 
+background-color: #f9f9f9; 
+border-radius: 8px; 
+}
+
+
+/* Estilos para el título del producto */
+.producto h2 {
+margin: 2% 0;
+font-size: 18px;
+}
+
+/* Estilos para la descripción del producto */
+.producto p {
+font-size: 14px;
+color: #666;
+}
+
+
+
+
+.paginacion {
+display: flex;
+justify-content: flex-end;
+margin-bottom: 10px;
+}
+
+
+/* Estilos del footer */
+footer {
+background-color: #f0f0f0; 
+padding: 90px; 
+text-align: center; 
+color: #333; 
+position: relative; 
+}
+
+/* Estilos del logo del footer */
+.logo-footer img {
+width: 150px;
+height: 100px;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+/* Estilos para la sección "Contacto" */
+.contacto {
+position: absolute;
+top: 20px;
+left: 200px;
+text-align: left; 
+font-size: 15px;
+}
+
+.contacto h3 {
+margin: 0; 
+}
+
+/* Estilos para la sección "Redes Sociales" */
+.redes-sociales {
+position: absolute;
+top: 20px;
+left: 650px;
+text-align: left; 
+font-size: 15px;
+}
+
+.redes-sociales h3 {
+margin: 0; 
+}
+
+.redes-sociales a {
+margin-right: 10px;
+}
+
+.redes-sociales img {
+width: 100px; 
+height: 80px;
+}
+
+/* Estilos para la sección "Métodos de Pago" */
+.metodos-pago {
+position: absolute;
+top: 20px;
+left: 1000px;
+text-align: left; 
+font-size: 15px;
+}
+
+.metodos-pago h3 {
+margin: 0; 
+}
+
+.metodos-pago img {
+width: 100px; 
+height: 80px;
+}
+
+
+
+
+
+/*Index*/
+
+/* Estilos para pantallas con un ancho máximo de 768 píxeles (dispositivos móviles) */
+@media (max-width: 768px) {
+/* Agrega tus estilos específicos para móviles aquí */
+
+/* Por ejemplo, puedes ajustar el relleno y el tamaño de fuente del encabezado */
+header {
+padding: 10px;
+}
+
+.ingresar-registrarme {
+top: 10px;
+right: 10px;
+font-size: 16px;
+}
+
+.categorias li {
+font-size: 11px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+/* También puedes hacer otros ajustes para pantallas más pequeñas según tus necesidades de diseño */
+
+.contenedor-imagenes {
+display: flex;
+flex-direction: column;
+align-items: center; /* Opcional: centra las imágenes horizontalmente */
+}
+
+/* Establece un ancho máximo para las imágenes si es necesario */
+.contenedor-imagenes img {
+width: 50%; /* Ajusta según tus preferencias */
+height: auto; /* Mantiene la proporción de aspecto */
+margin: 10px 0; /* Espacio entre las imágenes */
+}
+}
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -731,6 +1338,7 @@ body, h1, h2, h3, p, ul, li {
 
 /*AGENDA*/
 /* Media query para pantallas de 768px */
+<<<<<<< HEAD
  
   @media (max-width: 768px) {
     header {
@@ -824,13 +1432,96 @@ body, h1, h2, h3, p, ul, li {
       text-align: center;
       margin: 5% auto;
     }
+=======
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
 
+@media (max-width: 360px) {
 
+/* Establece un ancho máximo para el cuerpo de la página */
+body {
+  max-width: 360px; /* Establece un ancho máximo de 360px, que es el ancho de la ventana del navegador deseado */
+  margin: 0 auto; /* Centra horizontalmente el contenido de la página */
   
+}
 
 
+header {
+  padding: 5px;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+nav ul {
+  margin-left: 0;
+}
+
+nav ul li {
+  display: block;
+  margin: 10px 0;
+}
+
+.categorias ul {
+  margin-left: 0;
+  justify-content: flex-start;
+}
+
+.categorias li {
+  display: block;
+  margin: 10px 10px;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.ingresar-registrarme {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right:0px; 
+}
+
+.destacados {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.contenedor-imagenes {
+  grid-template-columns: repeat(1, 1fr);
+}
+/* Media query para pantallas de 360px */
+@media (max-width: 360px) {
+
+}
 
 
+.foto-productos {
+  grid-template-columns: 1fr; /* Una sola columna */
+  gap: 10px; /* Espacio entre las fotos */
+  justify-items: center; /* Centra horizontalmente las fotos en la columna */
+}
 
-  }
+.foto-productos .producto {
   
+  
+}
+
+
+footer {
+  padding: 30px;
+}
+
+.contacto,
+.redes-sociales,
+.metodos-pago {
+  position: static;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+  left: 0;
+}
+}
+
+
+
+

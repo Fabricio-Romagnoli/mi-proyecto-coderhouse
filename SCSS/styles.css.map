@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["styles.scss","styles.css"],"names":[],"mappings":"AAiFA;EACE,8BAjFY;EAkFZ,SAAA;EACA,UAAA;EACA,kBAAA;AChFF;;ADoFA;EACE,yBAxFc;EAyFd,WAAA;EACA,YAAA;EACA,aAAA;EACA,oCAAA;EACA,mBAAA;EACA,kBAAA;ACjFF;ADmFE;EACE,kBAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;ACjFJ;ADqFI;EAvFF,gBAAA;EACA,aAAA;EACA,SAAA;ACKF;ADHE;EACE,yBAAA;EACA,mBAAA;EACA,wCAAA;EACA,yBAAA;ACKJ;ADHI;EACE,sBAAA;EACA,wCAAA;ACKN;ADFI;EACE,YAAA;EACA,qBAAA;EACA,eAAA;EACA,aAAA;ACIN","file":"styles.css"}
+=======
+{"version":3,"sources":[],"names":[],"mappings":"","file":"styles.css"}
+>>>>>>> 39d4c30acbbe2410a79ccfeb4756d0cb36d0dac4
