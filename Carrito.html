@@ -1,11 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Carrito</title>
+  <title>Tienda Online</title>
   <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-  <!-- Contenido de la página "Carrito" -->
+  <!-- Encabezado de la página -->
 
-</body>
-</html>
+<header>
+    <div class="logo">
+      <img src="Imagenes/Plantilla Imagen.png" alt="Logo de la Tienda Online">
+    </div>
+    
+<!--Barra de navegacion -->
+
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="custom-nav-container">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="categorias2">
+  <nav>
+    <ul class="horizontal-menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="carrito.html">Carrito</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- Carrito Section -->
+<section class="carrito">
+  <h2>Carrito de Compras</h2>
+
+  <!-- Product Information -->
+  <div class="producto">
+    <h3>Producto</h3>
+
+    <div class="logo">
+      <img src="Imagenes/Plantilla Imagen.png" alt="Logo de la Tienda Online">
+    </div>
+
+    <div class="acciones">
+      <button class="eliminar">Eliminar</button>
+      <button class="comprar-ahora">Comprar ahora</button>
+      <button class="menos"> - </button>
+      <p>1</p>
+      <button class="mas"> + </button>
+    </div>
+
+    <p class="disponibilidad">38 disponibles</p>
+  </div>
+
+  <!-- Coupon Code -->
+  <div class="cupon">
+    <h3>Ingresar código de cupón</h3>
+    <input type="text" placeholder="Código de cupón">
+  </div>
+
+  <!-- Purchase Summary -->
+  <div class="resumen-compra">
+    <h3>Resumen de compra</h3>
+    <table>
+      <tr>
+        <td>Producto</td>
+        <td>$6.499</td>
+      </tr>
+      <tr>
+        <td>Envío</td>
+        <td>$1.614.99</td>
+      </tr>
+    </table>
+    <h3>Total</h3>
+    <p>$8.113.99</p>
+  </div>
+
+  <!-- Continue Shopping Button -->
+  <button class="continuar-compra">Continuar compra</button>
+</section>
+
+
+
+
+
+    <!-- Pie de página -->
+    <footer>
+      <div class="logo-footer">
+        <img src="Imagenes/Plantilla Imagen.png" alt="">
+      </div> 
+      
+      <div class="contacto">
+        <h3>Contacto</h3>
+        <p>Número de celular: 3581651564654654</p>
+        <p>Ubicación: Rio Cuarto, Cordoba, Argentina</p>
+        <p>Horarios: Lunes a Viernes de 9:00 a 18:00</p>
+      </div>
+      
+      <div class="redes-sociales">
+        <h3>Seguinos!</h3>
+        <a href="#"><img src="Imagenes/Logoinstagram.png" alt="Logo de Instagram"></a>
+        <a href="#"><img src="Imagenes/Logofacebook.png" alt="Logo de Facebook"></a>
+      
+      </div>
+      
+      <div class="metodos-pago">
+        <h3>Métodos de pago</h3>
+        <img src="Imagenes/Mastercard.png" alt="Logo de Visa">
+        <img src="Imagenes/Visa.png" alt="Logo de Mastercard">
+      
+      </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+  </body>
+  </html>

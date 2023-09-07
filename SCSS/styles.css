@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  background-color: #4b2424;
+  color: #fff;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  position: relative;
+}
+header .ingresar-registrarme {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  font-size: 20px;
+}
+header .categorias nav ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+header .categorias nav ul li {
+  border: 2px solid #4b2424;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+header .categorias nav ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header .categorias nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body main {
+  padding-bottom: 200px;
+}
+
+header {
+  background-color: rgb(173, 170, 170);
+  color: #fff;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+header nav {
+  grid-column: 3;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header .custom-nav-container {
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header .logo {
+  grid-column: 1;
+}
+
+header .logo img {
+  width: 150px;
+  height: 120px;
+}
+
+header .ingresar-registrarme {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  font-size: 20px;
+}
+
+header .ingresar-registrarme a {
+  color: black;
+}
+
+.categorias a {
+  color: black;
+  text-decoration: none;
+}
+
+.categorias ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.categorias li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 400px;
+}
+
+.destacados {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.contenedor-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.contenedor-imagenes img {
+  width: 90%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.contenedor-imagenes img:nth-child(1) {
+  order: -1;
+}
+
+footer {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 90px;
+  text-align: center;
+  color: #333;
+  width: 100%;
+}
+
+.logo-footer img {
+  max-width: 100%;
+  max-height: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.contacto {
+  position: absolute;
+  top: 20px;
+  left: 260px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.redes-sociales {
+  max-width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 800px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.redes-sociales h3 {
+  margin: 0;
+}
+
+.redes-sociales a {
+  margin-right: 10px;
+}
+
+.redes-sociales img {
+  width: 30px;
+  height: 30px;
+}
+
+.metodos-pago {
+  position: absolute;
+  top: 20px;
+  left: 1200px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.metodos-pago h3 {
+  margin: 0;
+}
+
+.metodos-pago img {
+  max-width: 100%;
+  height: 40px;
+} 
+
+/*# sourceMappingURL=styles.css.map */
